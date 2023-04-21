@@ -1,0 +1,2490 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "bb278bc2-f3c3-43ac-a4c7-96ae7e7fb219",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "City",
+    "description": "",
+    "author": "",
+    "windowWidth": 480,
+    "windowHeight": 320,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Idle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Idle8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Attack7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Run7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Run7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/Player_Jump6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player/Player_Jump6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/plaingrass_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/plaingrass_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/tileset_path1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/tileset_path1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/horizontaltile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/horizontaltile_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/verticaltile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/verticaltile_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/horizontaltile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/horizontaltile_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/plaingrass_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/plaingrass_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/horizontalwallT_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/horizontalwallT_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledgeBR_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledgeBR_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledgeTR_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledgeTR_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledgeTL_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledgeTL_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledge_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledge_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_walls_horizontalwall_1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/walls/horizontalwall_1.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_walls_verticalwall_1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/walls/verticalwall_1.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/stairs_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/stairs_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/floor_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/floor_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/floor_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/floor_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledgeBLB_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledgeBLB_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/walledge_BRB_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/walledge_BRB_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/cliffL_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/cliffL_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/cliffMudL_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/cliffMudL_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/cliffMudM_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/cliffMudM_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterfalledgeTL_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterfalledgeTL_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterstream_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterstream_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterstream_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterstream_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterstreamcornerTR_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterstreamcornerTR_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterstreamvertical_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterstreamvertical_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterfall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterfall_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterfall_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterfall_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/waterstreamendL_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/waterstreamendL_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/bank_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/bank_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/horizontalwall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/horizontalwall_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/horizontalwallstream_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/horizontalwallstream_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/atlas_48x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/atlas_48x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/shoproofgreen_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/shoproofgreen_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/marketbase_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/marketbase_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/shoproofblue_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/shoproofblue_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/shoproofred_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/shoproofred_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/structure/shoprooforange_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/structure/shoprooforange_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/Tileset-Animated Terrains-8 frames-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_tiles_Tileset-Animated Terrains-8 frames-8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/tiles/Tileset-Animated Terrains-8 frames-8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watermoving_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watermoving_9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water/watercliffR_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water/watercliffR_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/auto shop_damaged right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e5ca88896bdac8347579738db407de7fd1d8c20f0c838d37cc9d8c59a2e48525_auto shop_damaged right.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/e5ca88896bdac8347579738db407de7fd1d8c20f0c838d37cc9d8c59a2e48525_auto shop_damaged right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/Tileset-Terrain2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/Tileset-Terrain2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/altar 224x288 - standard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/altar 224x288 - standard.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/alter.png39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "alter.png39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter23.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter24.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter25.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter26.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter27.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter35.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter37.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter38.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/alter39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/alter39.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/tileset_path2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/tileset_path2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/Ground Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/Ground Tileset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/sand_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/sand_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/TX Props.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/TX Props.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/goddess_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/goddess_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/tileset.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/flowergrass_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/flowergrass_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plants/weed_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/plants/weed_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plants/weed_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/plants/weed_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plants/weed_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/plants/weed_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/interiors.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/interiors.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walls/housewall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/walls/housewall_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/housefloor_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/tiles/housefloor_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/map.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets/map.tmj",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/MainTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/MainTerrain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/MainObjects.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/MainObjects.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../TIme/assets/maps/BazzarTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../TIme/assets/maps/BazzarTerrain.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MainTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MainTerrain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/ChurchTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/ChurchTerrain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/ChurchObjects.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/ChurchObjects.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/BazzarTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/BazzarTerrain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/BazzarObject.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/BazzarObject.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/BossTerrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/BossTerrain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maps/BossObjects.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/maps/BossObjects.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/bridges.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/bridges.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/bridge_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/bridge_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/Wood Bridge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/Wood Bridge.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/props/woodenbridge_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/props/woodenbridge_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f72133de127fef0cc0c60d4f99a6416d7aa4e939e565edd44c700b565726b0e5_Alchemist_Idle Down_1.png",
+          "name": "Alchemist_Idle Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f72133de127fef0cc0c60d4f99a6416d7aa4e939e565edd44c700b565726b0e5_Alchemist_Idle Down_2.png",
+          "name": "Alchemist_Idle Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/203244192ed0abdebfa13e5d8dc1982c5a80edd004a2d119dc93a584dd54e77a_Alchemist_Idle Down_3.png",
+          "name": "Alchemist_Idle Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Down_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/203244192ed0abdebfa13e5d8dc1982c5a80edd004a2d119dc93a584dd54e77a_Alchemist_Idle Down_4.png",
+          "name": "Alchemist_Idle Down_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/d277d6d7cd58827bff3ec2019afee460a4e5994765a56073f256d1f7bf5bb3c0_Alchemist_Idle Left_1.png",
+          "name": "Alchemist_Idle Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/d277d6d7cd58827bff3ec2019afee460a4e5994765a56073f256d1f7bf5bb3c0_Alchemist_Idle Left_2.png",
+          "name": "Alchemist_Idle Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/259c8457409dc1d456b90866b9d8f1214c2e4ab59854ca63b9c5ec157d93df08_Alchemist_Idle Left_3.png",
+          "name": "Alchemist_Idle Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Left_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/259c8457409dc1d456b90866b9d8f1214c2e4ab59854ca63b9c5ec157d93df08_Alchemist_Idle Left_4.png",
+          "name": "Alchemist_Idle Left_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/5e302770fbb0bb1a357a8074afa02c932bb0f6b9370cfe14e845baa534c2b438_Alchemist_Idle Right_1.png",
+          "name": "Alchemist_Idle Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/5e302770fbb0bb1a357a8074afa02c932bb0f6b9370cfe14e845baa534c2b438_Alchemist_Idle Right_2.png",
+          "name": "Alchemist_Idle Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/791f0f75c7221bafca4380c207fff71e46d47d3ff2c5b933c6f82a92430a4bf7_Alchemist_Idle Right_3.png",
+          "name": "Alchemist_Idle Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/791f0f75c7221bafca4380c207fff71e46d47d3ff2c5b933c6f82a92430a4bf7_Alchemist_Idle Right_4.png",
+          "name": "Alchemist_Idle Right_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/10358357199a622caf4412cec574345afa71b88be808438f980f8a95727cda8d_Alchemist_Idle Up_1.png",
+          "name": "Alchemist_Idle Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/10358357199a622caf4412cec574345afa71b88be808438f980f8a95727cda8d_Alchemist_Idle Up_2.png",
+          "name": "Alchemist_Idle Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/807ad95f294ad480f3b16b12091c480e79d9b1c9ac599cee358cca9649cea20f_Alchemist_Idle Up_3.png",
+          "name": "Alchemist_Idle Up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Idle Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Idle Up_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/807ad95f294ad480f3b16b12091c480e79d9b1c9ac599cee358cca9649cea20f_Alchemist_Idle Up_4.png",
+          "name": "Alchemist_Idle Up_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/ef7ac736cc2b4eb61caea6f6cca64765df5a16a3a6635901d23cdbca53d61137_Alchemist_Walk Down_1.png",
+          "name": "Alchemist_Walk Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/48f92cb2e93145e534e15364d0b95083d47b8b5b55caced98547dbb3f5cb36d8_Alchemist_Walk Down_2.png",
+          "name": "Alchemist_Walk Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/6c409c5bb059e6b2ff7bd42e9157126e98ca9eacb3bcaa4e4fd6ec30f3c602fb_Alchemist_Walk Down_3.png",
+          "name": "Alchemist_Walk Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Down_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/48f92cb2e93145e534e15364d0b95083d47b8b5b55caced98547dbb3f5cb36d8_Alchemist_Walk Down_4.png",
+          "name": "Alchemist_Walk Down_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/edc664bebba3fd483ed98965d7e42bcbed0e978a59251057ca9724686a800ef3_Alchemist_Walk Left_1.png",
+          "name": "Alchemist_Walk Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/39b337fb8edf3ca57699074e17ebdf93e7f3d1d6e67847353bed1fe96172df50_Alchemist_Walk Left_2.png",
+          "name": "Alchemist_Walk Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/99be81b612bdb5586749eef78e3b253cc4a6e564efad0132173f869d35a8776c_Alchemist_Walk Left_3.png",
+          "name": "Alchemist_Walk Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Left_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/39b337fb8edf3ca57699074e17ebdf93e7f3d1d6e67847353bed1fe96172df50_Alchemist_Walk Left_4.png",
+          "name": "Alchemist_Walk Left_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f0a9443ea7ec6765a165b0a471c8a14a1c4a96882cc72575f6fcecce5347ca3e_Alchemist_Walk Right_1.png",
+          "name": "Alchemist_Walk Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/379c5c41ca4646f2611c640061a832887730205848868d34692abc9be8acb333_Alchemist_Walk Right_2.png",
+          "name": "Alchemist_Walk Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/3789a0d0867e119b34836c0baa7acd4f9d987fd319d9c8b04a9999ec4cbc7362_Alchemist_Walk Right_3.png",
+          "name": "Alchemist_Walk Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/379c5c41ca4646f2611c640061a832887730205848868d34692abc9be8acb333_Alchemist_Walk Right_4.png",
+          "name": "Alchemist_Walk Right_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/36d4a390b359cdd88e259f4bd61374dc8616ea4f20ddc7bef6be26a5073d931e_Alchemist_Walk Up_1.png",
+          "name": "Alchemist_Walk Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/daa64a6c8ead81ca002fb6e07b28a6dbb6669fdc5e9de4643329b0203b683e97_Alchemist_Walk Up_2.png",
+          "name": "Alchemist_Walk Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f112a2a44765ff302fba75268d9e3bdf2b3472832a148232c343ccde3d99e8fa_Alchemist_Walk Up_3.png",
+          "name": "Alchemist_Walk Up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alchemist_Walk Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alchemist_Walk Up_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/daa64a6c8ead81ca002fb6e07b28a6dbb6669fdc5e9de4643329b0203b683e97_Alchemist_Walk Up_4.png",
+          "name": "Alchemist_Walk Up_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/d2b657d0843d15fbfb53a606c5053cdf43e0573cb76fa2832c1bee8eaf5d51cc_Female Character 11_Walking Down_1.png",
+          "name": "Female Character 11_Walking Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b9fba8bc0e4837f52c24b17b273143c1fb2cee3f8fa26492e747a383da45d59f_Female Character 11_Walking Down_2.png",
+          "name": "Female Character 11_Walking Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/75d20bb87c5b03d2b54ceab26fb591c344f6fc587444d2286b0f3a76a9c17224_Female Character 11_Walking Down_3.png",
+          "name": "Female Character 11_Walking Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b89738593a7dd85c20f534578e33ea8df8525d9b691e4b434221a10342a06a53_Female Character 11_Walking Left_1.png",
+          "name": "Female Character 11_Walking Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/41fc49213cec5aaa318df8d795c741a30aae2f4854d962e9dfbf285c20a6fcca_Female Character 11_Walking Left_2.png",
+          "name": "Female Character 11_Walking Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/62791151338a026bcd94f8e3d231380f312b27107e22201be0839f9fd73d7832_Female Character 11_Walking Left_3.png",
+          "name": "Female Character 11_Walking Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9e08efd06e9407c7ea20f5115384f461d6a7d146e0e188f0edd3d34d7cb3a06b_Female Character 11_Walking Right_1.png",
+          "name": "Female Character 11_Walking Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9bebea9c9a9b561f281da754eab85a57bde97f81e10a560db78ef34f20c9f3f4_Female Character 11_Walking Right_2.png",
+          "name": "Female Character 11_Walking Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b457cec112c1456138cbaf3de1b35fc62e962ede2cd004bd26193b7a8eccebb8_Female Character 11_Walking Right_3.png",
+          "name": "Female Character 11_Walking Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/8113d7bb910da9e586428aeaac4fe01af26adbaf427599f9367a82d22b417ae0_Female Character 11_Walking Up_1.png",
+          "name": "Female Character 11_Walking Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/edc4a751545d613b4954b7c8da3b79366aedf8a66107b5d63fa60dd6925e075a_Female Character 11_Walking Up_2.png",
+          "name": "Female Character 11_Walking Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 11_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/89c1045c8d91109c6acb3a97b1bf4f9f5d6f1cf57557608dc65b23d5929c7591_Female Character 11_Walking Up_3.png",
+          "name": "Female Character 11_Walking Up_3.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/home"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dynamicwater"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

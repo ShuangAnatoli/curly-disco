@@ -1,0 +1,192 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.8536,
+            "scaleInEditor": 1
+        },
+        "#Grass tiles v.2": {
+            "scaleInEditor": 0.7
+        },
+        "#Tileset-Animated Terrains-8 frames-": {
+            "scaleInDock": 1.3464
+        },
+        "#Wooden House": {
+            "scaleInDock": 2.2047,
+            "scaleInEditor": 2.3638
+        },
+        "#terrain": {
+            "scaleInDock": 1
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-Tileset-wall-8.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-wall-8-rule.tmx": {
+            "scale": 0.3161,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 732.3631762100601,
+                "y": 621.6387219234418
+            }
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Terrain - Ancient Ruins.tsx": {
+            "scaleInDock": 0.7405,
+            "scaleInEditor": 0.66
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/TiledMap Editor Example Demo- Ancient Ruins.tmx": {
+            "scale": 0.4482,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 338.01874163319945,
+                "y": 195.2253458277554
+            }
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/TiledMap Editor Example Demo- Ancient Ruins.tmx#Terrain - Ancient Ruins": {
+            "scaleInDock": 0.9053
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Tileset-Animated Terrains-8 frames--.tsx": {
+            "scaleInDock": 0.6921
+        },
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/terrains.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.854
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_0.tmx": {
+            "scale": 0.852,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 222.41784037558685,
+                "y": 22.300469483568065
+            }
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_0.tsx": {
+            "scaleInDock": 0.9212,
+            "scaleInEditor": 1
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_1.json": {
+            "scale": 0.7365,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 325.8655804480652,
+                "y": 193.48268839103866
+            }
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_1.json#Grass": {
+            "scaleInDock": 1
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_1.json#Grass tiles v.2": {
+            "scaleInDock": 1
+        },
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_1.json#terrain": {
+            "scaleInDock": 1
+        },
+        "map.tmx": {
+            "scale": 0.7731,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 172.6814124951494,
+                "y": -130.64286638209808
+            }
+        },
+        "map.tmx#Basic Furniture": {
+            "scaleInDock": 3.0536
+        },
+        "map.tmx#Basic Grass Biom things 1": {
+            "scaleInDock": 1.5239
+        },
+        "map.tmx#Basic Plants": {
+            "scaleInDock": 1.5338
+        },
+        "map.tmx#Environment": {
+            "scaleInDock": 2.9323
+        },
+        "map.tmx#Fences": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Ground Tileset": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Paths": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Pond": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Rocks": {
+            "scaleInDock": 1
+        },
+        "map.tmx#TX Props": {
+            "scaleInDock": 0.8064
+        },
+        "map.tmx#TX Tileset Stone Ground": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Tilled Dirt": {
+            "scaleInDock": 1.7541
+        },
+        "map.tmx#Trees": {
+            "scaleInDock": 0.9462
+        },
+        "map.tmx#Water Flora": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Wood Bridge": {
+            "scaleInDock": 1
+        },
+        "map.tmx#Wooden House": {
+            "scaleInDock": 1.7592
+        },
+        "map.tmx#atlas_16x": {
+            "scaleInDock": 1.3834
+        },
+        "map.tmx#cloud_tileset": {
+            "scaleInDock": 1.0438
+        },
+        "map.tmx#marketplace": {
+            "scaleInDock": 0.593
+        },
+        "map.tmx#summer and spring items": {
+            "scaleInDock": 1
+        },
+        "map.tmx#terrains": {
+            "scaleInDock": 0.8244
+        }
+    },
+    "last.exportedFilePath": "/Users/swann/Desktop/TestTiled/Assets/Levels",
+    "last.imagePath": "/Users/swann/Desktop/Assets/Pixel Art Top Down - Basic/Texture",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "map.tmx"
+    ],
+    "project": "tiledmaptest.tiled-project",
+    "recentFiles": [
+        "map.tmx",
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_1.json",
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/TiledMap Editor Example Demo- Ancient Ruins.tmx",
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-Tileset-wall-8.tsx",
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-wall-8-rule.tmx",
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_0.tsx",
+        "/Users/swann/Desktop/TestTiled/Assets/Levels/level_0.tmx",
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/terrains.tsx",
+        "/Users/swann/Desktop/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Terrain - Ancient Ruins.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.useTransparentColor": false
+}
