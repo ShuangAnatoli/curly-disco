@@ -233,6 +233,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FemaleCharacter11",
+      "persistentUuid": "50cfc389-c373-41c4-8881-5d94cd8a86fe",
+      "width": 0,
+      "x": 288,
+      "y": 256,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
