@@ -2445,6 +2445,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/89c1045c8d91109c6acb3a97b1bf4f9f5d6f1cf57557608dc65b23d5929c7591_Female Character 11_Walking Up_3.png",
           "name": "Female Character 11_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pancakes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pancakes.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Dishes/d39f004e02a5120afa41260225f0f847ab0d1c7ab1f15e99d46ec5f2a731cfbd_Pancakes.png",
+          "name": "Pancakes.png"
+        }
       }
     ],
     "resourceFolders": []
